@@ -1,0 +1,1 @@
+CREATE TABLE testTable (seqn int NOT NULL, sStringValue nvarchar(100));
