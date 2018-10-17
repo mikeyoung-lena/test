@@ -3,4 +3,4 @@ DROP VIEW dbo.testView_vw
 GO
 
 
-CREATE VIEW testView_vw AS SELECT seqn, sStringValue FROM testTable
+CREATE VIEW testView_vw AS SELECT seqn, sStringValue FROM testTable ORDER BY seqn
